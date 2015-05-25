@@ -5,9 +5,9 @@
  * Thanks for MaterializeCSS.com
  */
 
-.default_color{background-color: #2196F3 !important}
+.default_color{background-color: #E53935 !important}
 
-.default_color_text{color: #2196F3 !important}
+.default_color_text{color: #E53935 !important}
 
 .icon-block {
     padding: 0 15px;
@@ -20,7 +20,7 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #2196F3;
+    background: url(../img/image01.jpg);
 }
 
 #nav_f{
@@ -48,7 +48,7 @@
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 
-.span_h2 {font-weight: 300;color: #2196F3;}
+.span_h2 {font-weight: 300;color: #E53935;}
 
 .text_b{color: #2196F3;}
 
@@ -59,9 +59,9 @@
     font-size: 7rem;
     display: block;
 }
-.card-content a {color: #2196F3;}
+.card-content a {color: #E53935;}
 
-.card-content a:hover {color: #2196F3;}
+.card-content a:hover {color: #E53935;}
 
 #work, #team{background: rgb(247, 247, 247);}
 
@@ -262,4 +262,26 @@ nav a.button-collapse {
 
 footer.page-footer {
     margin-top: 0px !important;
+}
+
+
+/*
+ *  User Added Styles
+ */
+
+.main-title {
+    margin-top: 70px;
+    padding: 0px;
+    font-family: 'Ubuntu Mono';
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+.main-subtitle {
+    margin-top: 0px;
+    padding: 0px;
+    font-family: 'Roboto condensed light';
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
 }
